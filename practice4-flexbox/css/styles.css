@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: peachpuff;
+}
+.container {
+  background: red;
+  border: 3px solid blue;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  width: 100%;
+}
+.item {
+  background: darkred;
+  height: 200px;
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 200px;
+}
+.item:nth-child(odd){
+  background: darksalmon;
+}
