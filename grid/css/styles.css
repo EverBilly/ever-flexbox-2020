@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.principal { 
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.header { background: #303f9f; }
+.sidebar1 { background: #1976d2;}
+.contenido { background: tomato;}
+footer { background: yellowgreen;}

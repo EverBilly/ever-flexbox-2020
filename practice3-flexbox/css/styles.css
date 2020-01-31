@@ -1,0 +1,12 @@
+.container {
+  border: 1px solid;
+  display: flex;
+  height: 400px;
+  width: 100%;
+}
+.hijo {
+  background: orangered;
+  width: 300px;
+  height: 300px;
+  margin: auto;
+}

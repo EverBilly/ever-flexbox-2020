@@ -1,0 +1,89 @@
+* {
+   box-sizing: border-box; 
+}
+:root {
+  --display-flex: flex;
+}
+body {
+  margin: 0;
+}
+header {
+  display: var(--display-flex);
+}
+nav > .logo {
+  border-radius: 20px;
+  height: 50px;
+  margin-right: 20px;
+}
+.container {
+  display: var(--display-flex);
+  flex-wrap: wrap;
+  min-height: 1000px;
+}
+.container > article {
+  flex: 1;
+}
+.container > aside {
+  flex: 0 0 200px;
+  background-color: beige;
+}
+header, nav, article, aside, footer {
+  padding: 10px;
+}
+footer {
+  background-color: mediumspringgreen;
+  height: 50px;
+}
+.menu__nav {
+  display: flex;
+  background: orangered;
+  border-radius: 10px;
+  font-family: sans-serif;
+  height: auto;
+  width: 100%;
+}
+.menu__nav > ul {
+  display: var(--display-flex);
+  flex: 3;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.menu__nav li {
+  margin-right: 10px;
+}
+.menu__nav form {
+display: var(--display-flex);
+justify-content: flex-end;
+flex: 1;
+}
+.menu__nav input {
+  flex: 1;
+}
+
+/* Media Screen for the nav */
+@media screen and (max-width: 575px) {
+  .menu__nav {
+    flex-direction: column;
+  }
+  .menu__nav ul {
+    flex-direction: row; /* Change this to 'column' to stack the links */
+    margin-bottom: 1em;
+  }
+ }
+
+/* Efect bump up */
+.article__image {
+  border: 2px solid teal;
+  border-radius: 10%;
+  float: left;
+  margin: 15px;
+  transition: margin 0.5s ease-out; 
+}
+.article__image:hover {
+  margin-top: 2px;
+}
+article > p {
+  display: inline-block;
+  text-align: justify;
+}

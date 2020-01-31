@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('https://i.ytimg.com/vi/H-BnAoLZjnU/maxresdefault.jpg');
+}
+.slider {
+  width: 70%;
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background-image: url('https://i.ytimg.com/vi/hhA6Vmiz3N8/maxresdefault.jpg');
+  background-size: 100% 100%;
+  box-shadow: 1px 2px 10px 5px white;
+  animation: slider 9s infinite linear;
+}
+@keyframes slider {
+  0% {background-image: url('https://i.ytimg.com/vi/m-MZ5rixMsM/maxresdefault.jpg'); }
+  35% {background-image: url('https://media.istockphoto.com/photos/dark-blue-blackboard-picture-id677518844?k=6&m=677518844&s=612x612&w=0&h=jDLWId4n5txGY3_LrnYHH0OwEgVMkiBc0JaHGMj-7Sk=');}
+  75% {background-image: url('http://images.designtrends.com/wp-content/uploads/2016/01/04091809/Red-Sunset-Background.jpg');}
+}
+span .fa-whatsapp{
+  font-size: 100px;
+  color: #51c025;
+  margin: 10px;
+}
+span .fa-facebook{
+  font-size: 100px;
+  color: #321dae;
+  margin: 10px;
+}
+span .fa-facebook:hover {
+  color: #3c26b4;
+}
+span .fa-whatsapp:hover {
+  color: green;
+}

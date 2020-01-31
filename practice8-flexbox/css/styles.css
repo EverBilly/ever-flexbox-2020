@@ -1,0 +1,24 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  border: 10px solid #000;
+  display: flex;
+  flex-flow: row wrap;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;/*Sirve para centrar contenidos y no dejar espacio entre ellos*/
+  margin: 100px auto ;
+  width: 500px;
+}
+.elemento {
+  background: #ec8822;
+  height: 50px;
+  margin: 5px;
+  width: 100px;
+}

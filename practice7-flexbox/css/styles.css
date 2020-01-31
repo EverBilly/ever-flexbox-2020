@@ -1,0 +1,59 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #e6e6e6;
+}
+header, .main, footer {
+  width: 90%;
+  margin: 20px auto;
+  max-width: 1000px;
+}
+header nav {
+  background: #528fd5;
+  overflow: hidden;
+}
+header nav ul {
+  list-style: none;
+}
+header nav ul li {
+  float: left;
+}
+header nav ul li a {
+  display: block;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+header nav ul li a:hover {
+  background: #75acec;
+}
+.main .articles {
+  float: left;
+  margin-right: 1.5%;
+  width: 68.5%;
+}
+.main .articles article {
+  background: #fff;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+aside {
+  background: #ff8000;
+  box-sizing: border-box;
+  float: left;
+  padding: 20px;
+  width: 30%;
+}
+footer {
+  background: #000;
+  color: #fff;
+  clear: both;
+  padding: 10px 0;
+  text-align: center;
+}
+.logotipo > img {
+  width: 100px;
+}

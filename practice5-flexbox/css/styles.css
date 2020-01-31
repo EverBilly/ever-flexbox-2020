@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: peachpuff;
+}
+.container {
+  background: red;
+  border: 3px solid blue;
+  display: flex;
+  /* FLEX DIRECTION
+      EJE X -> row inicia de izquierda a derecha
+      EJE X -> row-reverse inicia de derecha a izquierda
+      EJE Y -> column inicia de arriba a abajo
+      EJE Y -> column-reverse inicia de abajo a arriba
+  */
+  flex-direction: row-reverse;
+  justify-content: center;
+  padding: 20px;
+  width: 100%;
+}
+.item {
+  background: darkred;
+  height: 200px;
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 200px;
+}
+.item:nth-child(odd){
+  background: darksalmon;
+}
